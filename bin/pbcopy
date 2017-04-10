@@ -1,0 +1,3 @@
+#!/bin/bash
+
+powershell.exe -c 'Add-Type -AssemblyName PresentationCore; [System.Windows.Clipboard]::SetText($input)' 2>/dev/null
